@@ -1,2 +1,2 @@
 #!/bin/sh
-dbt run --profiles-dir .
+dbt run --profiles-dir . --select example
