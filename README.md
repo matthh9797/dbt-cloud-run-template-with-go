@@ -17,6 +17,7 @@ To run this locally you will need to have:
 4. Update region and service name in `setup/2-deploy-cr.sh`
 4. Run the scripts in the `setup/` folder one by one by running `bash setup/1- ....sh` etc. Make sure to test the cloud run service by invoking it in the cloud shell.
 5. Test the cloud run service by invoking it in the cloud shell then remove the example folder from models and `--example` tag from `script.sh`
+6. Go into your cloud run service in the console and setup continuous deploment with you github repository
 6. Optionally, create a key for the dbt-sa service account and setup your dev target in profiles to connect via the key. This make things a bit more seemless in development.
 
 ## References
